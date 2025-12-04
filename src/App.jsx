@@ -4,7 +4,19 @@ import './App.css'
 function App() {
 
   return (
-    <h1>Hello world!</h1>
+    <main>
+      <header>
+        <h1>Calculator</h1>
+        <h2>An Odin Project exercise</h2>
+        <h3>Powered by React</h3>
+      </header>
+      <article>
+
+      </article>
+      <footer>
+        &copy; Micheal McErlean 2025.
+      </footer>
+    </main>
   )
 }
 
