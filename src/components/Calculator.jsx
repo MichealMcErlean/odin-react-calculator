@@ -6,10 +6,9 @@ import Button from './Button.jsx';
 
 export default function Calculator() {
 
-  const [screen, setScreen] = useState('0123456789.abcde');
+  const [screen, setScreen] = useState('');
   const [firstOperand, setFirstOperand] = useState('');
   const [operator, setOperator] = useState('');
-  const [secondOperand, setSecondOperand] = useState('');
   const [showingResult, setShowingResult] = useState(false);
 
   function handleButtonClick(event) {
@@ -20,7 +19,6 @@ export default function Calculator() {
     setScreen('');
     setFirstOperand('');
     setOperator('');
-    setSecondOperand('');
     setShowingResult(false);
   }
 
