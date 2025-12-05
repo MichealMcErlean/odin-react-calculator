@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Calculator from './components/Calculator'
 
 function App() {
 
@@ -11,7 +12,7 @@ function App() {
         <h3>Powered by React</h3>
       </header>
       <article>
-
+        <Calculator />
       </article>
       <footer>
         &copy; Micheal McErlean 2025.

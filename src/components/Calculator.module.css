@@ -1,0 +1,20 @@
+.calcframe {
+  height: 440px;
+  width: 260px;
+  background-color: #222222;
+  border: 5px ridge #444444;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px black;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+}
+
+.buttongrid {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px 50px 50px 50px;
+  gap: 10px;
+  align-items: center;
+}

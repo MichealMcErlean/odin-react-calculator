@@ -1,0 +1,11 @@
+.bigbutton {
+  background-color: orange;
+  color: black;
+  height: auto;
+  width: auto;
+  text-align: center;
+  text-justify: center;
+  height: 50px;
+  font-size: 1.8rem;
+  font-family:'Courier New', Courier, monospace;
+}
